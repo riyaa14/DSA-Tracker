@@ -22,5 +22,5 @@ public:
     }
 
     // TIME COMPLEXITY : O(NLOGN)
-    // SPACE COMPLEXITY : O(LOGN) (sorting function takes logn space)
+    // SPACE COMPLEXITY : O(N)
 };
