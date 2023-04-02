@@ -11,10 +11,8 @@ class Solution {
         grid[i][j] = '2'; // to mark as visited
         
         // visit all the neighbours 
-        for(int xMove : x){
-            for(int yMove : y){
-                dfs(grid, i+xMove, j+yMove, n, m);
-            }
+        for(int step=0; step<8; step++){
+           dfs(grid, i+x[step], j+y[step], n, m);
         }
         
         return;
